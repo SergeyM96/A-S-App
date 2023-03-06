@@ -4,7 +4,7 @@ import { HomeComponent } from "./components/Home/home.component";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
   return (
     <div className="App">
       {!isAuthenticated && (
