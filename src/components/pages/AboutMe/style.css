@@ -1,0 +1,27 @@
+.aboutMe-container {
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: calc(auto - 5%);
+
+  background-image: url("../Images/bg.jpg");
+  background-size: cover;
+
+  background-color: aquamarine;
+}
+.header {
+  justify-content: center;
+
+  text-align: center;
+  background-color: azure;
+  color: chocolate;
+}
+.main {
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
