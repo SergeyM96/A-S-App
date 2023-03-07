@@ -10,8 +10,7 @@ root.render(
     domain="dev-tmke5z1ni3ixqrro.us.auth0.com"
     clientId="iRucx2wurLOWoIgcBW73sleppyXOJvuS"
     authorizationParams={{
-      //redirect_uri: window.location.origin,
-      redirect_uri: "http://localhost:3000/login/callback",
+      redirect_uri: window.location.origin,
     }}
   >
     <React.StrictMode>
