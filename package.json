@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
     "init": "^0.1.2",
+    "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",

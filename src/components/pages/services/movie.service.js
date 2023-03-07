@@ -4,7 +4,7 @@ import axios from "axios";
 // to a server and get a response back
 
 export const getMovies = async () => {
-  let response = await axios.get("http://localhost:3004/api/movies");
+  let response = await axios.get("http://localhost:3001/api/movies");
 
   if (response.status === 200) {
     return response.data;
@@ -13,7 +13,7 @@ export const getMovies = async () => {
 };
 
 export const addMovie = async (movie) => {
-  let response = await axios.post("http://localhost:3004/api/movies", movie);
+  let response = await axios.post("http://localhost:3001/api/movies", movie);
   debugger;
   if (response.status === 200) {
     return response.data;

@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./Table.css";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBIcon,
+  MDBBtn,
+  MDBRipple,
+} from "mdb-react-ui-kit";
 
 export const Table = ({ dataInit }) => {
   const [data, setData] = useState([]);
